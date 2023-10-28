@@ -6,7 +6,7 @@ import { MdArticle } from "react-icons/md";
 
 const FeedSection = () => {
   return (
-    <div className="  bg-white p-3 h-fit rounded-lg">
+    <div className="bg-white p-3 h-fit rounded-lg mt-2">
       <div>
         <div className="flex gap-3">
           <Avatar style={{ width: "50px", height: "50px" }} />
@@ -17,15 +17,15 @@ const FeedSection = () => {
           />
         </div>
         <div className="flex mt-3 justify-around">
-          <div className="flex items-center gap-3 hover:bg-gray-200 p-3 rounded-sm">
+          <div className="flex items-center gap-3 hover:bg-gray-200 p-2 md:p-3 rounded-sm cursor-pointer">
             <GoFileMedia className="text-blue-700" size={20} />
             <h2>Media</h2>
           </div>
-          <div className="flex items-center gap-3 hover:bg-gray-200 p-3 rounded-sm">
+          <div className="flex items-center gap-3 hover:bg-gray-200 p-2 md:p-3 rounded-sm cursor-pointer">
             <SlCalender size={20} className=" text-orange-500" />
             <h2>Event</h2>
           </div>
-          <div className="flex items-center gap-3 hover:bg-gray-200 p-3 rounded-sm">
+          <div className="flex items-center gap-3 hover:bg-gray-200 p-2 md:p-3 rounded-sm cursor-pointer">
             <MdArticle size={25} className="text-orange-700" />
             <h2>Write article</h2>
           </div>

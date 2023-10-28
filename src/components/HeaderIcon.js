@@ -1,16 +1,28 @@
 import { Avatar } from "@mui/material";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
-const HeaderIcon = ({ title, Icon, logo, size }) => {
+const HeaderIcon = ({ title, Icon, logo, size, style }) => {
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleWindowResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+    window.addEventListener("resize", handleWindowResize);
+    return () => {
+      window.removeEventListener("resize", handleWindowResize);
+    };
+  }, []);
+
   return (
-    <div className="flex flex-col items-center text-gray-600 hover:text-black cursor-pointer">
-      {Icon && <Icon size={size} />}
-      {logo && (
+    <div className="flex flex-col items-center text-gray-600 hover:text-black cursor-pointer ">
+      {Icon && <Icon size={size} className={style} />}
+      {logo && windowWidth >= 770 ? (
         <Avatar
           style={{ objectFit: "contain", height: "25px", width: "25px" }}
         />
-      )}
-      <p className="text-xs">{title}</p>
+      ) : null}
+      {windowWidth >= 770 && <p className={`text-xs ${style}`} >{title}</p>}
     </div>
   );
 };
