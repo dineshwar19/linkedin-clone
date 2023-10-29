@@ -13,7 +13,7 @@ const SideBar = () => {
       <Avatar style={{ width: "70px", height: "70px", padding: "5px" }} />
     </div>
 
-    <h1 className="font-semibold mt-4">Dineswar S</h1>
+    <h1 className="font-semibold mt-4 cursor-pointer hover:underline">Dineswar S</h1>
     <h4 className="text-center font-extralight text-xs my-2 px-3">
       Full Stack Developer | Web Development Enthusiast | JavaScript | React.js | Java | HTML/CSS | Seeking Full-Time Opportunities
     </h4>
@@ -21,7 +21,7 @@ const SideBar = () => {
 </div>
 
         <hr />
-        <div className="my-3 px-3 hover:bg-gray-200 cursor-pointer hidden md:block">
+        <div className="my-2 px-3 py-1 hover:bg-gray-200 cursor-pointer hidden md:block">
           <h4 className="text-xs font-light">Connections</h4>
           <h4 className="text-sm font-semibold ">Connect with alumni</h4>
         </div>
@@ -30,9 +30,9 @@ const SideBar = () => {
           <h4 className="font-extralight text-xs">
             Access exclusive tools & insights
           </h4>
-          <a href="" className="text-sm underline">
+          <h1 className="text-sm underline">
             Try Premium for free
-          </a>
+          </h1>
         </div>
         <hr />
         <div className="p-3 hover:bg-gray-200 cursor-pointer rounded-b-lg hidden md:block">
@@ -42,15 +42,15 @@ const SideBar = () => {
 
       <div className="mt-3 bg-white rounded-lg overflow-hidden shadow-md hidden md:block">
         <div className="flex flex-col text-blue-600 text-sm gap-2 font-semibold p-3 ">
-          <a href="" className="hover:underline">
+          <h1 className="hover:underline cursor-pointer">
             Groups
-          </a>
-          <a href="" className="hover:underline">
+          </h1>
+          <h1 className="hover:underline cursor-pointer">
             Events
-          </a>
-          <a href="" className="hover:underline">
+          </h1>
+          <h1 className="hover:underline cursor-pointer">
             Followed Hastags
-          </a>
+          </h1>
         </div>
         <hr />
         <div className="flex justify-center py-3 hover:bg-gray-200 cursor-pointer">

@@ -23,7 +23,7 @@ const News = () => {
             </div>
           </li>
           <li className=" px-3 py-1 hover:bg-gray-200 cursor-pointer">
-          <li className="list-disc  list-inside">
+            <li className="list-disc  list-inside">
               Rise of emotive marketing
             </li>
             <div className="flex items-center gap-5 text-xs font-divght">
@@ -32,7 +32,7 @@ const News = () => {
             </div>
           </li>
           <li className=" px-3 py-1 hover:bg-gray-200 cursor-pointer">
-          <li className="list-disc  list-inside">
+            <li className="list-disc  list-inside">
               Rise of emotive marketing
             </li>
             <div className="flex items-center gap-5 text-xs font-divght">
@@ -41,7 +41,7 @@ const News = () => {
             </div>
           </li>
           <li className=" px-3 py-1 hover:bg-gray-200 cursor-pointer">
-          <li className="list-disc  list-inside">
+            <li className="list-disc  list-inside">
               Rise of emotive marketing
             </li>
             <div className="flex items-center gap-5 text-xs font-divght">
@@ -50,7 +50,9 @@ const News = () => {
             </div>
           </li>
           <li className=" px-3 py-1 hover:bg-gray-200 cursor-pointer">
-            <li className="list-disc  list-inside">Rise of emotive marketing</li>
+            <li className="list-disc  list-inside">
+              Rise of emotive marketing
+            </li>
             <div className="flex items-center gap-5 text-xs font-divght">
               <p>2d ago</p>
               <li className=" list-disc">1532 Readers</li>
