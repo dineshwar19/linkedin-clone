@@ -57,7 +57,7 @@ const PostSection = () => {
       follow: true,
       work: "Bio-Chem",
       time: "1d.",
-      caption: 'Level Up',
+      caption: '',
       image: img4,
       likeCount: "142 Likes",
       comments: false,
