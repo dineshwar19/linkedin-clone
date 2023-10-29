@@ -69,6 +69,7 @@ function Header() {
       <div id="Header-right" className=" flex items-center gap-4 md:gap-5 ">
         {icons.map((icon) => (
           <HeaderIcon
+            id = {icon.id}
             title={icon.title}
             Icon={icon.Icon}
             logo={icon.logo}
