@@ -52,7 +52,7 @@ const PostSection = () => {
     },
     {
       id: 3,
-      name: "Mithra",
+      name: "Swift",
       following: true,
       follow: true,
       work: "Bio-Chem",
